@@ -1,0 +1,154 @@
+body {
+    background-color: lightblue;
+  }
+.nav-center h4{
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    text-justify: auto;
+    color: rgb(51, 128, 128);
+    background-color: rgba(243, 238, 238, 0.7);
+     }
+
+     .nav-links{
+        position: absolute;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        padding-top: 1rem;
+        text-align: center;
+        background-color: rgba(243, 238, 238, 0.7);
+        word-spacing: 40px 40px;
+        
+       
+        
+    }
+.nav-center h4{
+    text-align: left;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+   
+
+}
+
+.nav-center ul{
+    position: relative;
+    justify-content: 5px 5px;
+    text-align: right;
+    
+}
+
+.nav-center ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1px 2px;
+}
+
+.nav-center ul li a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.nav-center ul li a:hover{
+    color: red;
+    transition: .3s;
+}
+.container h2{
+    text-align: center;
+    
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 350px;
+    border-radius: 100%;
+    padding: 50px;
+    margin: 10px;
+    position: absolute;
+    align-items: center;
+    top: 25%;
+    right: 32%;
+    
+}
+.color{
+    text-align: center;
+    color: red;
+    padding-top: 2rem;
+    font-size: 50px;
+}
+
+
+
+.btn{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+}
+
+.btn{
+    border: none;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+/* When the browser is at least 600px and above */
+@media screen and (max-width:1024px){
+    .container h2{
+        font-size: 35px;
+        text-align: center;
+        right: 10px;
+        left: 135px;
+        padding: 80px;
+        margin: 10px;
+    }
+
+    .btn{
+        border: none;
+        color: rgb(4, 4, 4);
+        padding: 20px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        margin: 4px 2px;
+        cursor: pointer;
+        left: 30%;
+        right: 30%;
+     
+    }
+}
+
+/*small devices*/
+
+@media screen and (max-width:600px){
+    .container h2{
+        font-size: 35px;
+        text-align: center;
+        right: 10px;
+        left: 1px;
+        padding: 20px;
+        margin: 10px;
+    }
+    .btn{
+        border: none;
+        color: rgb(4, 4, 4);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        left: 30%;
+        right: 30%;
+    }
+    
+}
+
+
